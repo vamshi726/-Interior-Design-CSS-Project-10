@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+body {
+    background-image: url("./images/background-4c1b4e1f-002e-4a63-8e25-23135b099b89.jpg");
+    background-repeat: no-repeat;
+    background-size: 1300px 650px;
+    color: white;
+    font-family: Montserrat;
+    padding: 20px;
+}
+.top-sec{
+    display: flex;
+    /* align-items: center; */
+}
+
+.logo{
+    width: 20px;
+    font-size: 20px;
+}
+   
+.nav-item{
+    display: flex;
+    /* justify-content: space-between; */
+    position: relative;
+    left: 450px;
+    align-items: center;
+
+}
+
+.nav-items{
+    justify-content: space-between;
+    padding: 20px;
+}
+hr{
+    position: relative;
+    left: 200px;
+    bottom:20px;
+}
+.phn{
+    
+    position: relative;
+    left:20px;
+    align-items: center;
+    max-width: 50px;
+}
+h1{
+    font-size: 45px;
+    max-width: 600px;
+    padding-left: 50px;
+}
+ 
+.middle-sec{
+    display: flex;
+}
+.puzzle{
+    width: 260px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #ffffff29;
+    padding: 15px;
+    position: relative;
+    left: 230px;
+}
+.puzzle>img{
+    max-width: 80px;
+position: relative;
+top: 15px;
+}
+
+
+.idea{
+    width: 260px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #ffffff29;
+    padding: 15px;
+    position: relative;
+}
+
+.idea>img{
+    max-width: 80px;
+position: relative;
+top: 15px;
+}
+
+.himg>img{
+    position: relative;
+    max-width: 100px;
+    bottom: 100px;
+    left: 290px;
+}
+
+.iimg>img{
+    position: relative;
+    max-width: 80px;
+    top: 25px;
+    left: 390px;
+    transform: rotate(0.25turn);
+    
+}
+
+
+
+/* button */
+.button-17 {
+    align-items: center;
+    appearance: none;
+    background-color: #ffffff23;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #f3f3f3;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+    position: relative;
+    left:50px;
+  }
+  
+  .button-17:hover {
+    background: #F6F9FE;
+    color: #174ea6;
+  }
+  
+  .button-17:active {
+    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+    outline: none;
+  }
+  
+  .button-17:focus {
+    outline: none;
+    border: 2px solid #4285f4;
+  }
+  
+  .button-17:not(:disabled) {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+  
+  .button-17:not(:disabled):hover {
+    box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+  }
+  
+  .button-17:not(:disabled):focus {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+  
+  .button-17:not(:disabled):active {
+    box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+  }
+  
+  .button-17:disabled {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
